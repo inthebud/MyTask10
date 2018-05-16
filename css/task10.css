@@ -149,6 +149,7 @@ main{
 	font-size: 1.5rem;
 	color: white;
 	height: 2rem;
+	line-height: 2rem;
 	width: 2rem;
 	text-align: center;
 	flex-shrink: 0;
@@ -198,6 +199,9 @@ input[type="radio"]:checked + label::before {
 }
 .rd{
 	display: none;
+}
+#rd1{
+	checked:true;
 }
 .main-inner1{
 	background-color: #fbfcff;
@@ -254,7 +258,7 @@ input[type="radio"] + label{
 	color: #999999;
 }
 .input1{
-	width: 55px;
+	width: 60px;
 	height: 25px;
 	margin: 0 0.5rem;
 }
