@@ -293,3 +293,6 @@ input[type="radio"] + label{
 	border-radius: 4px;
 	font-size: 1.8rem;
 }
+.ft2>p{
+	margin-bottom: 0;
+}
