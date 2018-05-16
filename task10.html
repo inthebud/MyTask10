@@ -158,16 +158,16 @@
 					<div class="row row10-inner">
 						<div class="col-sm-3">
 							<input class="rd" id="rd4" type="radio" name="size" checked="true">
-							<label for="rd4">外径</label>
+							<label for="rd4">内径</label>
 						</div>
 						<div class="col-sm-3">
-							长<input type="number" max="99999"  class="input1">mm
+							长<input type="number" max="99999" oninput="if(value.length>5)value=value.slice(0,5)" class="input1">mm
 						</div>
 						<div class="col-sm-3">
-							宽<input type="number" max="99999" class="input1">mm
+							宽<input type="number" max="99999" oninput="if(value.length>5)value=value.slice(0,5)" class="input1">mm
 						</div>
 						<div class="col-sm-3">
-							高<input type="number" max="99999" class="input1">mm
+							高<input type="number" max="99999" oninput="if(value.length>5)value=value.slice(0,5)" class="input1">mm
 						</div>
 					</div>
 					<div class="row row10-inner">
@@ -176,13 +176,13 @@
 							<label for="rd5">外径</label>
 						</div>
 						<div class="col-sm-3">
-							长<input type="number" max="99999" class="input1">mm
+							长<input type="number" max="99999" oninput="if(value.length>5)value=value.slice(0,5)" class="input1">mm
 						</div>
 						<div class="col-sm-3">
-							宽<input type="number" max="99999" class="input1">mm
+							宽<input type="number" max="99999" oninput="if(value.length>5)value=value.slice(0,5)" class="input1">mm
 						</div>
 						<div class="col-sm-3">
-							高<input type="number" max="99999" class="input1">mm
+							高<input type="number" max="99999" oninput="if(value.length>5)value=value.slice(0,5)" class="input1">mm
 						</div>
 					</div>
 				</div>
